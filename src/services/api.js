@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create a base axios instance with the correct base URL
 const api = axios.create({
-  baseURL: 'http://localhost:5000', // Your backend server URL
+  baseURL: 'https://ai-chatbot-backend-baxi.onrender.com', // Your backend server URL
   headers: {
     'Content-Type': 'application/json'
   }
