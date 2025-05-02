@@ -874,4 +874,55 @@ input:focus, textarea:focus {
     max-width: 150px;
   }
 }
+/* Password visibility toggle styles */
+.password-group {
+  position: relative;
+}
+
+.password-input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-input-container input {
+  width: 100%;
+  padding-right: 40px; /* Make room for the toggle button */
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray-500);
+  transition: color 0.2s ease;
+}
+
+.toggle-password:hover {
+  color: var(--gray-700);
+}
+
+.toggle-password svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Dark mode adjustments */
+@media (prefers-color-scheme: dark) {
+  .toggle-password {
+    color: var(--gray-400);
+  }
+  
+  .toggle-password:hover {
+    color: var(--gray-200);
+  }
+}
 
