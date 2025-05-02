@@ -1,12 +1,65 @@
-# React + Vite
+# Frontend (Client)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Technologies Used
 
-Currently, two official plugins are available:
+- React.js
+- MobX for state management
+- React Router for navigation
+- Axios for API requests
+- JWT for authentication
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **User Authentication**: Login and registration with JWT
+- **Chat Interface**: Real-time conversation with AI assistant
+- **Admin Panel**: FAQ management for administrators
+- **PDF Upload**: Extract FAQs from PDF documents
+- **System Prompt**: Customize AI assistant personality (admin only)
+- **Chat History**: Download conversation history
+- **Responsive Design**: Works on mobile and desktop devices
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Setup and Installation
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+   ```bash
+   git clone <repository-url>
+   cd financial-management-frontend
+   ```
+
+2. Install dependencies
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Create a `.env` file in the root directory with the following variables:
+   ```
+   REACT_APP_API_URL=https://expense-tracker-backend-944r.onrender.com/api
+   # For local development:
+   # REACT_APP_API_URL=http://localhost:5000/api
+   ```
+
+4. Start the development server
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
+
+## Deployment
+
+The frontend can be deployed to Netlify or any other static hosting service. For Netlify deployment, make sure to add the following redirect rule:
+
+## License
+
+This project is licensed under the MIT License.
