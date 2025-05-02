@@ -32,7 +32,6 @@
 1. Clone the repository
    ```bash
    git clone <repository-url>
-   cd financial-management-frontend
    ```
 
 2. Install dependencies
