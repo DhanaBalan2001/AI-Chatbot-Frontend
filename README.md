@@ -18,6 +18,11 @@
 - **Chat History**: Download conversation history
 - **Responsive Design**: Works on mobile and desktop devices
 
+## Login Credentials
+
+**For user** :(username:testuser, password: password123)
+**For admin** :(username:admin, password: admin123) 
+
 ## Setup and Installation
 
 ## Getting Started
