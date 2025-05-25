@@ -20,8 +20,9 @@
 
 ## Login Credentials
 
-**For user** :(username:testuser, password: password123)
-**For admin** :(username:admin, password: admin123) 
+- **For user** : **username** : testuser, **password** : password123)
+
+- **For admin** : **username** : admin, **password** : admin123) 
 
 ## Setup and Installation
 
